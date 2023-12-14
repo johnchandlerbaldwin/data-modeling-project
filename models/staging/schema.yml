@@ -1,0 +1,24 @@
+version: 2
+
+sources:
+    - name: google-sheets
+      database: data-modeling-project-405019
+      schema: economic_indicators
+
+      tables:
+        - name: hdi
+        - name: nominal_gdp_per_capita
+        - name: population
+        - name: ppp_gdp_per_capita
+
+
+
+models:
+  - name: stg_hdi
+    description: Staging table for hdi.
+  - name: stg_nominal_gdp_per_capita
+    description: Staging table for nominal_gdp_per_capita
+  - name: stg_population
+    description: Staging table for population
+  - name: stg_ppp_gdp_per_capita
+    description: Staging table for ppp_gdp_per_capita
