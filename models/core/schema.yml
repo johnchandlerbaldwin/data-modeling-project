@@ -1,5 +1,5 @@
 version: 2
 
 models:
-  - name: health_metrics
+  - name: economic_indicators
 
