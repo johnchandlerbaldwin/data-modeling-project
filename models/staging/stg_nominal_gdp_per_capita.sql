@@ -2,7 +2,7 @@
 
 WITH nominal_gdp_per_capita_stg1 AS (
 
-    SELECT ACountryTerritory AS country, AUNRegion AS region,
+    SELECT ACountryTerritory AS country, AUNRegion AS country,
         {{ format_numeric_cols('AIMF45') }} AS nominal_gdp_per_capita
     FROM {{ source('google-sheets', 'nominal_gdp_per_capita') }}
 
