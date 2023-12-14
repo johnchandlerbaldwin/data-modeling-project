@@ -2,44 +2,40 @@
 
 -- Combine all views
 
-SELECT * FROM stg_hdi
-
-/*
-WITH hdi AS (    
+WITH stg_hdi AS (    
     
     SELECT *
     FROM {{ ref('stg_hdi') }}    
 
 ),
 
-nominal_gdp_per_capita AS (
+stg_nominal_gdp_per_capita AS (
 
     SELECT * 
     FROM {{ ref('stg_nominal_gdp_per_capita') }}
 
 ),
 
-population AS (
+stg_population AS (
 
     SELECT * 
     FROM {{ ref('stg_population') }}
 
 ),
 
-ppp_gdp_per_capita AS (
+stg_ppp_gdp_per_capita AS (
 
     SELECT *
     FROM {{ ref('stg_ppp_gdp_per_capita') }}
 
 )
 
-SELECT nominal_gdp_per_capita.country, hdi, nominal_gdp_per_capita, population, ppp_gdp_per_capita
-FROM nominal_gdp_per_capita
-INNER JOIN hdi
-ON nominal_gdp_per_capita.country = hdi.country
-INNER JOIN population
-ON nominal_gdp_per_capita.country = population.country
-INNER JOIN ppp_gdp_per_capita
-ON nominal_gdp_per_capita.country = ppp_gdp_per_capita.country
-
-*/
+SELECT stg_nominal_gdp_per_capita.country, stg_hdi.hdi, stg_nominal_gdp_per_capita.nominal_gdp_per_capita, 
+stg_population.population, stg_ppp_gdp_per_capita.ppp_gdp_per_capita
+FROM stg_nominal_gdp_per_capita
+LEFT JOIN stg_hdi
+ON stg_nominal_gdp_per_capita.country = stg_hdi.country
+LEFT JOIN stg_population
+ON stg_nominal_gdp_per_capita.country = stg_population.country
+LEFT JOIN stg_ppp_gdp_per_capita
+ON stg_nominal_gdp_per_capita.country = stg_ppp_gdp_per_capita.country
