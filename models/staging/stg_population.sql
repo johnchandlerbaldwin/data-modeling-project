@@ -11,4 +11,3 @@ WITH population_stg1 AS (
 
 SELECT * 
 FROM population_stg1
-WHERE population > 100000
