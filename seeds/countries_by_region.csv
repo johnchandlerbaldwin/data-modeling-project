@@ -24,7 +24,7 @@ Belize,BZ,BLZ,84,Americas,Latin America and the Caribbean,Central America
 Benin,BJ,BEN,204,Africa,Sub-Saharan Africa,Western Africa
 Bermuda,BM,BMU,60,Americas,Northern America,
 Bhutan,BT,BTN,64,Asia,Southern Asia,
-Bolivia (Plurinational State of),BO,BOL,68,Americas,Latin America and the Caribbean,South America
+Bolivia,BO,BOL,68,Americas,Latin America and the Caribbean,South America
 "Bonaire, Sint Eustatius and Saba",BQ,BES,535,Americas,Latin America and the Caribbean,Caribbean
 Bosnia and Herzegovina,BA,BIH,70,Europe,Southern Europe,
 Botswana,BW,BWA,72,Africa,Sub-Saharan Africa,Southern Africa
@@ -49,9 +49,9 @@ Cocos (Keeling) Islands,CC,CCK,166,Oceania,Australia and New Zealand,
 Colombia,CO,COL,170,Americas,Latin America and the Caribbean,South America
 Comoros,KM,COM,174,Africa,Sub-Saharan Africa,Eastern Africa
 Congo,CG,COG,178,Africa,Sub-Saharan Africa,Middle Africa
-"Congo, Democratic Republic of the",CD,COD,180,Africa,Sub-Saharan Africa,Middle Africa
+Democratric Republic of the Congo,CD,COD,180,Africa,Sub-Saharan Africa,Middle Africa
 Costa Rica,CR,CRI,188,Americas,Latin America and the Caribbean,Central America
-Côte d'Ivoire,CI,CIV,384,Africa,Sub-Saharan Africa,Western Africa
+Ivory Coast,CI,CIV,384,Africa,Sub-Saharan Africa,Western Africa
 Croatia,HR,HRV,191,Europe,Southern Europe,
 Cuba,CU,CUB,192,Americas,Latin America and the Caribbean,Caribbean
 Curaçao,CW,CUW,531,Americas,Latin America and the Caribbean,Caribbean
@@ -69,7 +69,7 @@ Eritrea,ER,ERI,232,Africa,Sub-Saharan Africa,Eastern Africa
 Estonia,EE,EST,233,Europe,Northern Europe,
 Eswatini,SZ,SWZ,748,Africa,Sub-Saharan Africa,Southern Africa
 Ethiopia,ET,ETH,231,Africa,Sub-Saharan Africa,Eastern Africa
-Falkland Islands (Malvinas),FK,FLK,238,Americas,Latin America and the Caribbean,South America
+Falkland Islands,FK,FLK,238,Americas,Latin America and the Caribbean,South America
 Faroe Islands,FO,FRO,234,Europe,Northern Europe,
 Fiji,FJ,FJI,242,Oceania,Oceania,
 Finland,FI,FIN,246,Europe,Northern Europe,
@@ -101,7 +101,7 @@ Hungary,HU,HUN,348,Europe,Eastern Europe,
 Iceland,IS,ISL,352,Europe,Northern Europe,
 India,IN,IND,356,Asia,Southern Asia,
 Indonesia,ID,IDN,360,Asia,South-eastern Asia,
-Iran (Islamic Republic of),IR,IRN,364,Asia,Southern Asia,
+Iran,IR,IRN,364,Asia,Southern Asia,
 Iraq,IQ,IRQ,368,Asia,Western Asia,
 Ireland,IE,IRL,372,Europe,Northern Europe,
 Isle of Man,IM,IMN,833,Europe,Northern Europe,
@@ -114,11 +114,11 @@ Jordan,JO,JOR,400,Asia,Western Asia,
 Kazakhstan,KZ,KAZ,398,Asia,Central Asia,
 Kenya,KE,KEN,404,Africa,Sub-Saharan Africa,Eastern Africa
 Kiribati,KI,KIR,296,Oceania,Oceania,
-Korea (Democratic People's Republic of),KP,PRK,408,Asia,Eastern Asia,
-"Korea, Republic of",KR,KOR,410,Asia,Eastern Asia,
+North Korea,KP,PRK,408,Asia,Eastern Asia,
+South Korea,KR,KOR,410,Asia,Eastern Asia,
 Kuwait,KW,KWT,414,Asia,Western Asia,
 Kyrgyzstan,KG,KGZ,417,Asia,Central Asia,
-Lao People's Democratic Republic,LA,LAO,418,Asia,South-eastern Asia,
+Laos,LA,LAO,418,Asia,South-eastern Asia,
 Latvia,LV,LVA,428,Europe,Northern Europe,
 Lebanon,LB,LBN,422,Asia,Western Asia,
 Lesotho,LS,LSO,426,Africa,Sub-Saharan Africa,Southern Africa
@@ -139,8 +139,8 @@ Mauritania,MR,MRT,478,Africa,Sub-Saharan Africa,Western Africa
 Mauritius,MU,MUS,480,Africa,Sub-Saharan Africa,Eastern Africa
 Mayotte,YT,MYT,175,Africa,Sub-Saharan Africa,Eastern Africa
 Mexico,MX,MEX,484,Americas,Latin America and the Caribbean,Central America
-Micronesia (Federated States of),FM,FSM,583,Oceania,Oceania,
-"Moldova, Republic of",MD,MDA,498,Europe,Eastern Europe,
+Micronesia,FM,FSM,583,Oceania,Oceania,
+Moldova,MD,MDA,498,Europe,Eastern Europe,
 Monaco,MC,MCO,492,Europe,Western Europe,
 Mongolia,MN,MNG,496,Asia,Eastern Asia,
 Montenegro,ME,MNE,499,Europe,Southern Europe,
@@ -165,7 +165,7 @@ Norway,NO,NOR,578,Europe,Northern Europe,
 Oman,OM,OMN,512,Asia,Western Asia,
 Pakistan,PK,PAK,586,Asia,Southern Asia,
 Palau,PW,PLW,585,Oceania,Oceania,
-"Palestine, State of",PS,PSE,275,Asia,Western Asia,
+Palestine,PS,PSE,275,Asia,Western Asia,
 Panama,PA,PAN,591,Americas,Latin America and the Caribbean,Central America
 Papua New Guinea,PG,PNG,598,Oceania,Oceania,
 Paraguay,PY,PRY,600,Americas,Latin America and the Caribbean,South America
@@ -178,7 +178,7 @@ Puerto Rico,PR,PRI,630,Americas,Latin America and the Caribbean,Caribbean
 Qatar,QA,QAT,634,Asia,Western Asia,
 Réunion,RE,REU,638,Africa,Sub-Saharan Africa,Eastern Africa
 Romania,RO,ROU,642,Europe,Eastern Europe,
-Russian Federation,RU,RUS,643,Europe,Eastern Europe,
+Russia,RU,RUS,643,Europe,Eastern Europe,
 Rwanda,RW,RWA,646,Africa,Sub-Saharan Africa,Eastern Africa
 Saint Barthélemy,BL,BLM,652,Americas,Latin America and the Caribbean,Caribbean
 "Saint Helena, Ascension and Tristan da Cunha",SH,SHN,654,Africa,Sub-Saharan Africa,Western Africa
@@ -211,10 +211,10 @@ Suriname,SR,SUR,740,Americas,Latin America and the Caribbean,South America
 Svalbard and Jan Mayen,SJ,SJM,744,Europe,Northern Europe,
 Sweden,SE,SWE,752,Europe,Northern Europe,
 Switzerland,CH,CHE,756,Europe,Western Europe,
-Syrian Arab Republic,SY,SYR,760,Asia,Western Asia,
-"Taiwan, Province of China",TW,TWN,158,Asia,Eastern Asia,
+Syria,SY,SYR,760,Asia,Western Asia,
+Taiwan,TW,TWN,158,Asia,Eastern Asia,
 Tajikistan,TJ,TJK,762,Asia,Central Asia,
-"Tanzania, United Republic of",TZ,TZA,834,Africa,Sub-Saharan Africa,Eastern Africa
+Tanzania,TZ,TZA,834,Africa,Sub-Saharan Africa,Eastern Africa
 Thailand,TH,THA,764,Asia,South-eastern Asia,
 Timor-Leste,TL,TLS,626,Asia,South-eastern Asia,
 Togo,TG,TGO,768,Africa,Sub-Saharan Africa,Western Africa
@@ -229,14 +229,14 @@ Tuvalu,TV,TUV,798,Oceania,Oceania,
 Uganda,UG,UGA,800,Africa,Sub-Saharan Africa,Eastern Africa
 Ukraine,UA,UKR,804,Europe,Eastern Europe,
 United Arab Emirates,AE,ARE,784,Asia,Western Asia,
-United Kingdom of Great Britain and Northern Ireland,GB,GBR,826,Europe,Northern Europe,
-United States of America,US,USA,840,Americas,Northern America,
+United Kingdom,GB,GBR,826,Europe,Northern Europe,
+United States,US,USA,840,Americas,Northern America,
 United States Minor Outlying Islands,UM,UMI,581,Oceania,Oceania,
 Uruguay,UY,URY,858,Americas,Latin America and the Caribbean,South America
 Uzbekistan,UZ,UZB,860,Asia,Central Asia,
 Vanuatu,VU,VUT,548,Oceania,Oceania,
 Venezuela (Bolivarian Republic of),VE,VEN,862,Americas,Latin America and the Caribbean,South America
-Viet Nam,VN,VNM,704,Asia,South-eastern Asia,
+Vietnam,VN,VNM,704,Asia,South-eastern Asia,
 Virgin Islands (British),VG,VGB,92,Americas,Latin America and the Caribbean,Caribbean
 Virgin Islands (U.S.),VI,VIR,850,Americas,Latin America and the Caribbean,Caribbean
 Wallis and Futuna,WF,WLF,876,Oceania,Oceania,
