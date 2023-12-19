@@ -11,8 +11,15 @@ WITH hdi_stg1 AS (
 
     hdi_stg2 AS (
     SELECT RowNumber, country, MAX(HDI) OVER (PARTITION BY grp ORDER BY RowNumber ASC) AS hdi
-    FROM hdi_stg1)
+    FROM hdi_stg1),
 
-SELECT * FROM hdi_stg2
+    hdi_stg3 AS (
+        SELECT RowNumber, 
+        CASE WHEN country = 'Republic of the Congo' THEN 'Congo' ELSE country END AS country,
+        hdi 
+        FROM hdi_stg2
+    )
+
+SELECT * FROM hdi_stg3
 WHERE country IS NOT NULL
 ORDER BY country ASC
