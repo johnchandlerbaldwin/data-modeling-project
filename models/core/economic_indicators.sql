@@ -48,3 +48,4 @@ ON stg_nominal_gdp_per_capita.country = stg_ppp_gdp_per_capita.country
 INNER JOIN countries_by_region
 ON stg_nominal_gdp_per_capita.country = countries_by_region.name
 WHERE population > 100000
+ORDER BY country
