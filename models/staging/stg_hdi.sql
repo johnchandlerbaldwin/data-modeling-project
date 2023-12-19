@@ -15,3 +15,4 @@ WITH hdi_stg1 AS (
 
 SELECT * FROM hdi_stg2
 WHERE country IS NOT NULL
+ORDER BY country ASC
